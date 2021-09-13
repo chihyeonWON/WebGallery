@@ -3,14 +3,31 @@
 
 /* reset */
 * {
-	margin: 0px;
-	padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 ul,
 ol,
 li {
-	list-style: none;
+  list-style: none;
 }
 a {
-	text-decoration: none;
+  text-decoration: none;
+}
+body {
+  background: #efefef;
+}
+
+header {
+  width: 400px;
+  height: 100%;
+  background: linear-gradient(45deg, aqua, royalblue);
+  position: fixed; /*화면 왼쪽에 고정 */
+  top: 0px;
+  left: 0px;
+}
+main {
+  margin-left: 400px; /* 너비값 없이 여백만 추가 */
+  box-sizing: border-box;
+  padding: 20px;
 }
