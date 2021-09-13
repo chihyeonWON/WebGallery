@@ -40,3 +40,21 @@ header h1 {
   top: 50%;
   transform: translateY(-150%);
 }
+header h1::before {
+  content: "UI/UX DEVELOPEMENT"; /* Use virtual selector to write content */
+  display: block;
+  font: 14px/1 "orbitron";
+  letter-spacing: 2px;
+  position: absolute;
+  left: 0px;
+  top: 140px;
+  opacity: 0.8;
+}
+header h1::after {
+  content: "";
+  display: block;
+  width: 150px;
+  height: 2px;
+  background: #fff;
+  margin-top: 20px;
+}
