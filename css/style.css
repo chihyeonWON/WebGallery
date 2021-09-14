@@ -115,3 +115,15 @@ main section article div p {
   color: #777;
   margin-bottom: 15px;
 }
+/* 브라우저 폭이 1600px 미만일 때 */
+@media screen and (max-width: 1599px) {
+  header {
+    width: 350px;
+  }
+  main {
+    margin-left: 350px;
+  }
+  main section article {
+    width: 25%;
+  }
+}
