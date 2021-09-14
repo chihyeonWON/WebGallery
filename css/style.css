@@ -127,3 +127,39 @@ main section article div p {
     width: 25%;
   }
 }
+
+/* 브라우저 폭이 1200px 미만일 때 */
+@media screen and (max-width: 1199px) {
+  header {
+    width: 100%;
+    height: 80px;
+    position: relative;
+  }
+  header h1 {
+    font: bold 24px/1 "orbitron";
+    transform: translateX(-50%);
+  }
+  header h1::before,
+  #header h1::after {
+    display: none;
+  }
+  header ul {
+    left: 83%;
+    bottom: 25px;
+  }
+  header ul li {
+    margin-right: 20px;
+  }
+  header ul li a {
+    font-size: 20px;
+  }
+  header ul li a span {
+    display: none;
+  }
+  main {
+    width: 100%;
+  }
+  main section article {
+    width: 25%;
+  }
+}
