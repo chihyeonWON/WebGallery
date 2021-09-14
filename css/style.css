@@ -181,3 +181,12 @@ main section article div p {
     width: 50%;
   }
 }
+/* 브라우저 폭이 540px 미만일 때 */
+@media screen and (max-width: 539px) {
+  header ul {
+    display: none;
+  }
+  main section article {
+    width: 100%;
+  }
+}
