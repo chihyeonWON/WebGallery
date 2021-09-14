@@ -172,3 +172,12 @@ main section article div p {
     width: 33.333%;
   }
 }
+/* 브라우저 폭이 680px 미만일 때 */
+@media screen and (max-width: 679px) {
+  header ul {
+    left: 70%;
+  }
+  main section article {
+    width: 50%;
+  }
+}
